@@ -1,0 +1,41 @@
+[36m Info      [39m Using local @elizaos/cli installation
+Error checking for CLI updates: [0m[1m262 |[0m       [0m[35mthrow[0m error[0m[2m;[0m
+[0m[1m263 |[0m     }
+[0m[1m264 |[0m 
+[0m[1m265 |[0m     [0m[2m// Wrap other errors with more context[0m
+[0m[1m266 |[0m     [0m[35mif[0m (error [0m[35minstanceof[0m Error) {
+[0m[1m267 |[0m       [0m[35mthrow[0m [0m[35mnew[0m [0m[1mProcessExecutionError[0m(
+                  [31m[1m^[0m
+[0mProcessExecutionError[0m[2m:[0m [1mCommand execution failed: ENOENT: no such file or directory, uv_spawn 'npm'[0m
+ exitCode[0m[2m:[0m [0m[33mnull[0m[0m[2m,[0m
+   stderr[0m[2m:[0m ""[0m[2m,[0m
+  command[0m[2m:[0m [0m[32m"npm"[0m[0m[2m,[0m
+
+[0m      [2mat [0m[0m[1m[3mbunExec[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\bun-exec.ts[0m[2m:[0m[33m267[0m[2m:[33m13[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mbunExec[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\bun-exec.ts[0m[2m:[0m[33m169[0m[2m:[33m3[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mbunExecSimple[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\bun-exec.ts[0m[2m:[0m[33m319[0m[2m:[33m24[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mbunExecSimple[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\bun-exec.ts[0m[2m:[0m[33m315[0m[2m:[33m3[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mgetLatestCliVersionForChannel[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\version-channel.ts[0m[2m:[0m[33m34[0m[2m:[33m30[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mgetLatestCliVersionForChannel[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\version-channel.ts[0m[2m:[0m[33m27[0m[2m:[33m3[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mgetLatestCliVersion[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\display-banner.ts[0m[2m:[0m[33m130[0m[2m:[33m33[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mgetLatestCliVersion[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\display-banner.ts[0m[2m:[0m[33m117[0m[2m:[33m43[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mcheckAndShowUpdateNotification[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\display-banner.ts[0m[2m:[0m[33m180[0m[2m:[33m33[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mcheckAndShowUpdateNotification[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\utils\display-banner.ts[0m[2m:[0m[33m173[0m[2m:[33m54[0m[2m)[0m
+[0m      [2mat [0m[0m[1m[3mmain[0m[2m ([0m[0m[36m[2mC:\Users\Omen\Desktop\Neon\neon\[0m[36mnode_modules\@elizaos\cli\src\index.ts[0m[2m:[0m[33m121[0m[2m:[33m11[0m[2m)[0m
+
+
+[38;5;27m⠀⠀⠀⠀⠀⠀⠀⠀⢀⣐⣿⣿⢰⡀⠀⠀⠀[38;5;255m ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[38;5;255m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[0m
+[38;5;27m⠀⠀⠀⠀⠀⢀⣴⠤⠾⠛⠛⣿⣶⣇⠀⠀⡆[38;5;255m ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[38;5;255m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[0m
+[38;5;27m⢰⣋⡳⡄⠀⢨⣭⡀⠀⡤⠀⣀⣝⢿⣶⣿⡅[38;5;255m ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[38;5;255m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[0m
+[38;5;27m⢸⣯⠀⣇⠀⣼⣿⣿⣆⢷⣴⣿⣿⡏⣛⡉⠀[38;5;255m ⢸⣿⣿⣿⣿⣿⣿⢸⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⣾⣿⣿⣧⠀⠀⠀[38;5;255m⢸⠟⢀⣴⣿⣿⣿⣿⣦⡀⣠⣾⣿⣿⣿⣿⣦⡙⢿[0m
+[38;5;27m⠀⠙⢷⣮⢸⣿⣿⣿⣿⣷⣯⣟⣏⣼⣷⣅⠾[38;5;255m ⢸⣿⣇⣀⣀⣀⠀⢸⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⠀⠀⣠⣿⣿⠟⠁⠀⠀⣼⣿⡟⣿⣿⣆⠀⠀[38;5;255m⠀⠀⣿⣿⠋⠀⠈⠻⣿⡇⣿⣿⣅⣀⣀⡛⠛⠃⠀[0m
+[38;5;27m⠀⠀⠀⠁⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀[38;5;255m ⢸⣿⡿⠿⠿⠿⠀⢸⣿⣿⠀⠀⠀⠀⠀⣿⣿⡇⠀⣠⣾⣿⠟⠁⠀⠀⠀⣰⣿⣿⣁⣸⣿⣿⡄⠀[38;5;255m⠀⠀⣿⣿ ⠀⠀ ⣿⣿⢈⣛⠿⠿⠿⣿⣷⡄⠀[0m
+[38;5;27m⠀⠀⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣉⡟⠀⠀[38;5;255m ⢸⣿⣧⣤⣤⣤⣤⢸⣿⣿⣦⣤⣤⣤⡄⣿⣿⡇⣾⣿⣿⣧⣤⣤⣤⡄⢰⣿⣿⠟⠛⠛⠻⣿⣿⡄[38;5;255m⢠⡀⠻⣿⣿⣦⣴⣿⣿⠇⢿⣿⣦⣤⣤⣿⣿⠇⣠[0m
+[38;5;27m⠀⠀⠀⠀⢰⡈⠛⠿⣿⣿⣿⣿⣿⠋⠀  [38;5;255m ⠘⠛⠛⠛⠛⠛⠛⠈⠛⠛⠛⠛⠛⠛⠃⠛⠛⠃⠛⠛⠛⠛⠛⠛⠛⠃⠛⠛⠃⠀⠀⠀⠀⠙⠛⠃[38;5;255m⠘⠛⠀⠈⠛⠛⠛⠛⠁⠀⠀⠙⠛⠛⠛⠛⠁⠚⠛[0m
+[38;5;27m⠀⠀⠀⠀⢸⣿⡦⠀⠀⠉⠛⠿⠃⠀⠀⠀ [38;5;255m ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[38;5;255m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[0m
+
+[38;5;51mVersion: 1.6.4[0m
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🗂️ backup and recover secrets: https://dotenvx.com/ops
+[?25l[90m│[39m
+[35m◒[39m  Building project[999D[J[35m◐[39m  Building project[999D[J[35m◓[39m  Building project[999D[J[35m◑[39m  Building project[999D[J[35m◒[39m  Building project[999D[J[35m◐[39m  Building project[999D[J[35m◓[39m  Building project[999D[J[35m◑[39m  Building project[999D[J[35m◒[39m  Building project.[999D[J[35m◐[39m  Building project.[999D[J[35m◓[39m  Building project.[999D[J[35m◑[39m  Building project.[999D[J[35m◒[39m  Building project.[999D[J[35m◐[39m  Building project.[999D[J[35m◓[39m  Building project.[999D[J[35m◑[39m  Building project.[999D[J[35m◒[39m  Building project..[999D[J[35m◐[39m  Building project..[999D[J[35m◓[39m  Building project..[999D[J[35m◑[39m  Building project..[999D[J[35m◒[39m  Building project..[999D[J[35m◐[39m  Building project..[999D[J[35m◓[39m  Building project..[999D[J[35m◑[39m  Building project..[999D[J[35m◒[39m  Building project...[999D[J[35m◐[39m  Building project...[999D[J[35m◓[39m  Building project...[999D[J[35m◑[39m  Building project...[999D[J[35m◒[39m  Building project...[999D[J[35m◐[39m  Building project...[999D[J[35m◓[39m  Building project...[999D[J[35m◑[39m  Building project...[999D[J[35m◒[39m  Building project...[999D[J[35m◐[39m  Building project[999D[J[35m◓[39m  Building project[999D[J[35m◑[39m  Building project[999D[J[35m◒[39m  Building project[999D[J[35m◐[39m  Building project[999D[J[35m◓[39m  Building project[999D[J[35m◑[39m  Building project[999D[J[35m◒[39m  Building project[999D[J[35m◐[39m  Building project.[999D[J[35m◓[39m  Building project.[999D[J[35m◑[39m  Building project.[?25h[999D[J[32m◇[39m  Canceled
+[?25h
