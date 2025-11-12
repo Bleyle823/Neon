@@ -13,10 +13,6 @@ describe('Project Starter Character Plugin Ordering', () => {
       OLLAMA_API_ENDPOINT: process.env.OLLAMA_API_ENDPOINT,
       GOOGLE_GENERATIVE_AI_API_KEY: process.env.GOOGLE_GENERATIVE_AI_API_KEY,
       DISCORD_API_TOKEN: process.env.DISCORD_API_TOKEN,
-      TWITTER_API_KEY: process.env.TWITTER_API_KEY,
-      TWITTER_API_SECRET_KEY: process.env.TWITTER_API_SECRET_KEY,
-      TWITTER_ACCESS_TOKEN: process.env.TWITTER_ACCESS_TOKEN,
-      TWITTER_ACCESS_TOKEN_SECRET: process.env.TWITTER_ACCESS_TOKEN_SECRET,
       TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN,
       IGNORE_BOOTSTRAP: process.env.IGNORE_BOOTSTRAP,
     };
@@ -87,7 +83,6 @@ describe('Project Starter Character Plugin Ordering', () => {
       // Platform plugins
       const platformPlugins = [
         '@elizaos/plugin-discord',
-        '@elizaos/plugin-twitter',
         '@elizaos/plugin-telegram',
       ];
 
@@ -151,14 +146,7 @@ describe('Project Starter Character Plugin Ordering', () => {
       );
     });
 
-    it('should include proper conditional checks for Twitter', () => {
-      // Twitter requires all 4 environment variables
-      // Test that the logic structure is sound
-      const plugins = character.plugins;
-
-      // Twitter should not be in default config (no env vars set)
-      expect(plugins).not.toContain('@elizaos/plugin-twitter');
-    });
+    // Twitter plugin removed; no Twitter checks required
 
     it('should structure platform plugins between AI plugins', () => {
       const plugins = character.plugins;
